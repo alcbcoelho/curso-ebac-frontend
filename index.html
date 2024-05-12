@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* Estilo rápido só para deixar o exercício mais visualmente atraente */
+            
+            * {
+                margin: 0;
+            }
+
+            .flex-container {
+                display: flex;
+                height: 100vh;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .flex-content {
+                padding-bottom: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="flex-container">
+                <div class="flex-content">
+                    <h1>Formulário de Cadastro</h1>
+                </div>
+                <div class="flex-content">
+                    <label for="name">
+                        Nome:
+                    </label>
+                        <input type="text" name="name" id="name">
+                </div>
+                <div class="flex-content">
+                    <label for="email">
+                        E-mail:
+                    </label>
+                        <input type="text" name="email" id="email">
+                </div>
+                <div class="flex-content">
+                    <label for="password">
+                        Senha:
+                    </label>
+                        <input type="text" name="password" id="password">
+                </div>
+                <div class="flex-content">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
