@@ -2,20 +2,16 @@
   "name": "curso-ebac-frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "gulp.js",
+  "main": "index.js",
   "scripts": {
+    "less": "less-watch-compiler ./src/styles/ ./dist/styles/ main.less",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-obfuscate": "^0.2.9",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.77.8"
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
   }
 }
